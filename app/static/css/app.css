@@ -1,3 +1,54 @@
 body {
-    padding-top: 5rem;
+    padding-top: 5rem; 
+    border:solid;
+    text-align: center; 
+    }
+ 
+.info{
+    width: 100%;
+    border-bottom: solid;
+    background-color: green; 
 }
+ 
+button{
+    background-color: #96E539;
+    color: white;
+    padding:10px 24px;
+    margin:50px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight:bold;
+    border: none;
+}
+
+.num1{
+    
+     float: left;
+     padding-left: 20rem;
+     padding-bottom: 10rem;
+}
+.num2{
+    float: left;
+    width: 40rem;
+}
+ 
+.num3{
+    float: right;
+    padding-right: 20rem;
+    padding-bottom: 10rem;
+}
+
+.post1{
+     float: left;
+    padding-right: 10px;
+}
+.post2{
+    float: left;
+    width: 35rem;
+}
+ 
+.post3{
+    float: right;
+}
+
+ 

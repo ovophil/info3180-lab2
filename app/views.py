@@ -28,6 +28,10 @@ def about():
 ###
 # The functions below should be applicable to all Flask apps.
 ###
+@app.route('/profile')
+def profile():
+    return render_template('profile.html')
+
 
 @app.route('/<file_name>.txt')
 def send_text_file(file_name):
